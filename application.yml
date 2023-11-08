@@ -1,6 +1,13 @@
-spring:
-  cloud:
-    config:
-      server:
-        eureka:
-          enabled: false
+#spring:
+#  cloud:
+#    config:
+#      server:
+#        eureka:
+#          enabled: false
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: 'http://${HOST_DOMAIN}:8761/eureka'
