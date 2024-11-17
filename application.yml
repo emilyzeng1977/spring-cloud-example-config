@@ -5,9 +5,9 @@ spring:
         eureka:
           enabled: false
 
-eureka:
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: 'http://${HOST_DOMAIN}:8761/eureka'
+#eureka:
+#  client:
+#    registerWithEureka: true
+#    fetchRegistry: true
+#    serviceUrl:
+#      defaultZone: 'http://${HOST_DOMAIN}:8761/eureka'
